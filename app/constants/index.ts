@@ -106,11 +106,24 @@ export const skills: skillsList[] = [
 
 export const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Metron Security",
+    icon: touchmedia,
+    iconBg: "#99c5ff",
+    date: "Jan 2025 - Present",
+    points: [
+      "Developed a dynamic admin panel with React.js, implementing secure user authentication and efficient CRUD operations with Axios.",
+      "Built the VIT Architecture College website and admin panel, focusing on session management, CRUD operations, and automating data processes.",
+      "Created reusable UI components, integrated Firebase push notifications, and managed state using Redux for Bids On Motor website.",
+      "Enhanced user experience across projects with React Hook Form, Yup validation, and Toast messaging for seamless interaction.",
+    ],
+  },
+  {
     title: "Full Stack Developer",
     company_name: "Touchmedia Ads Software",
     icon: touchmedia,
     iconBg: "#99c5ff",
-    date: "Dec 2023 - Jan 2024",
+    date: "Dec 2023 - Jan 2025",
     points: [
       "Developed a dynamic admin panel with React.js, implementing secure user authentication and efficient CRUD operations with Axios.",
       "Built the VIT Architecture College website and admin panel, focusing on session management, CRUD operations, and automating data processes.",
