@@ -1,4 +1,4 @@
-import { salesforce, bolt, touchmedia } from "../../public/assets/images";
+import { salesforce, bolt, touchmedia } from "../assets/images";
 import {
   contact,
   css,
@@ -23,9 +23,15 @@ import {
   express,
   mongodb,
   todo,
-} from "../../public/assets/icons";
+} from "../assets/icons";
 
-export const skills = [
+export interface skillsList {
+  imageUrl: string;
+  name: string;
+  type: string;
+}
+
+export const skills: skillsList[] = [
   {
     imageUrl: c,
     name: "c",
