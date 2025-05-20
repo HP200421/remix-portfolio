@@ -1,4 +1,4 @@
-import { salesforce, bolt, touchmedia } from "../assets/images";
+import { salesforce, bolt, touchmedia, metron } from "../assets/images";
 import {
   contact,
   css,
@@ -23,6 +23,8 @@ import {
   express,
   mongodb,
   todo,
+  remix,
+  docker,
 } from "../assets/icons";
 
 export interface skillsList {
@@ -88,6 +90,16 @@ export const skills: skillsList[] = [
     type: "State Management",
   },
   {
+    imageUrl: remix,
+    name: "Remix",
+    type: "Web Framework",
+  },
+  {
+    imageUrl: docker,
+    name: "Docker",
+    type: "Tool",
+  },
+  {
     imageUrl: nodejs,
     name: "Node.js",
     type: "Backend",
@@ -108,8 +120,8 @@ export const experiences = [
   {
     title: "Software Engineer",
     company_name: "Metron Security",
-    icon: touchmedia,
-    iconBg: "#99c5ff",
+    icon: metron,
+    iconBg: "#fa8269",
     date: "Jan 2025 - Present",
     points: [
       "Developed a dynamic admin panel with React.js, implementing secure user authentication and efficient CRUD operations with Axios.",
@@ -209,14 +221,6 @@ export const projects = [
     description:
       "Desktop Assistant is a voice-controlled AI assistant that performs various tasks based on user voice commands. The OpenAI GPT-3.5 API for natural language understanding and generation.",
     link: "https://github.com/HP200421/Desktop-Assistant",
-  },
-  {
-    iconUrl: quiz,
-    theme: "btn-back-pink",
-    name: "Quiz Game",
-    description:
-      "The simple quiz game created using HTML, CSS, and JavaScript. It allows users to test their knowledge by answering multiple-choice questions.",
-    link: "https://hp200421.github.io/Quiz_Game/",
   },
   {
     iconUrl: weather,

@@ -2,7 +2,7 @@ import { skills, skillsList, experiences } from "~/constants";
 import pkg from "react-vertical-timeline-component";
 const { VerticalTimeline, VerticalTimelineElement } = pkg;
 import "react-vertical-timeline-component/style.min.css";
-import Resume from "~/components/resume";
+import Resume from "~/components/cta";
 
 export default function About() {
   return (
@@ -16,9 +16,9 @@ export default function About() {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-600">
         <p>
-          With a passion for full-stack development, I am a proficient developer
-          capable of designing and developing complex applications with
-          expertise in React and Node.js.
+          A Software Engineer passionate about writing code, designing, and
+          developing applications. I build things that matter. <br />
+          Always learning, always growing
         </p>
       </div>
 

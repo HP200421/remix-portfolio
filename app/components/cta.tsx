@@ -1,6 +1,6 @@
 import { Link } from "@remix-run/react";
 
-export default function Resume() {
+export default function CTA() {
   return (
     <section className="cta">
       <p className="cta-text">

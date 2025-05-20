@@ -26,6 +26,8 @@ import metaverse from "./metaverse.svg";
 import mongodb from "./mongodb.svg";
 import express from "./express.svg";
 import todo from "./todo.svg";
+import remix from "./remix.svg";
+import docker from "./docker.webp";
 
 export {
   css,
@@ -56,4 +58,6 @@ export {
   analysis,
   metaverse,
   todo,
+  remix,
+  docker,
 };
