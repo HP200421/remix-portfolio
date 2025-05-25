@@ -124,10 +124,10 @@ export const experiences = [
     iconBg: "#fa8269",
     date: "Jan 2025 - Present",
     points: [
-      "Developed a dynamic admin panel with React.js, implementing secure user authentication and efficient CRUD operations with Axios.",
-      "Built the VIT Architecture College website and admin panel, focusing on session management, CRUD operations, and automating data processes.",
-      "Created reusable UI components, integrated Firebase push notifications, and managed state using Redux for Bids On Motor website.",
-      "Enhanced user experience across projects with React Hook Form, Yup validation, and Toast messaging for seamless interaction.",
+      "Built a Jira Forge app to automate project tracking, improving on-time delivery through real-time monitoring.",
+      "Optimized Jira API integrations and built reusable React components, cutting load times by 40% and improving UI performance.",
+      "Developed a custom ServiceNow application to efficiently manage network incidents for MSP and enterprise-level customers.",
+      "Leveraged ServiceNow dashboards to track Incidents, Alerts, and Licenses per customer.",
     ],
   },
   {
@@ -154,19 +154,6 @@ export const experiences = [
       "Specialized expertise in React.js, demonstrating the ability to build efficient and dynamic user interfaces for web projects.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Experienced in implementing responsive design principles, ensuring optimal user experiences across various devices and screen sizes.",
-    ],
-  },
-  {
-    title: "Salesforce Developer",
-    company_name: "Salesforce",
-    icon: salesforce,
-    iconBg: "#99d8f2",
-    date: "Oct 2022 - Dec 2023",
-    points: [
-      "Completed the Smart Bridge Salesforce Supported Virtual Internship Program, accredited by AICTE.",
-      "Acquired comprehensive knowledge of Salesforce products and services through hands-on experience in Salesforce development.",
-      "Successfully accomplished a Salesforce certification and earned super badges on the Salesforce Trailblazer Platform.",
-      "Engaged in practical application of Salesforce skills during the internship, contributing to real-world projects and solutions.",
     ],
   },
 ];
@@ -197,45 +184,5 @@ export const projects = [
     description:
       "A replica of the Zomato landing page, showcasing various restaurants and food options. This project focuses on the frontend implementation using HTML and CSS.",
     link: "https://hp200421.github.io/Zomato_Landing_Page/",
-  },
-  {
-    iconUrl: metaverse,
-    theme: "btn-back-green",
-    name: "Metaverse Explore",
-    description:
-      "A captivating Metaverse-themed React application built using the Next.js framework, Tailwind CSS for responsive design, and Framer Motion library for stunning animations.",
-    link: "https://metaverseexplore.netlify.app/",
-  },
-  {
-    iconUrl: todo,
-    theme: "btn-back-purple",
-    name: "TODO Application",
-    description:
-      "TODO Application is a simple to-do list application built using React, Context API and Tailwind CSS. It allows users to add, edit, delete tasks and can mark them as completed.",
-    link: "https://manage-todo-daily.netlify.app/",
-  },
-  {
-    iconUrl: assistant,
-    theme: "btn-back-yellow",
-    name: "Desktop Assistant",
-    description:
-      "Desktop Assistant is a voice-controlled AI assistant that performs various tasks based on user voice commands. The OpenAI GPT-3.5 API for natural language understanding and generation.",
-    link: "https://github.com/HP200421/Desktop-Assistant",
-  },
-  {
-    iconUrl: weather,
-    theme: "btn-back-blue",
-    name: "Weather Application",
-    description:
-      "A one-page weather website providing temperature, humidity, wind information, and sunrise/sunset details for specified cities using Weather API.",
-    link: "https://hp200421.github.io/Weather_Application/",
-  },
-  {
-    iconUrl: analysis,
-    theme: "btn-back-black",
-    name: "Hotel Booking Sentiment Analysis",
-    description:
-      "A Python project employing data visualization to analyze trends in hotel booking cancellations, offering valuable insights for informed decision-making by hotel managers and stakeholders.",
-    link: "https://github.com/HP200421/Analysis_of_Hotel_Booking_Cancellation",
   },
 ];
