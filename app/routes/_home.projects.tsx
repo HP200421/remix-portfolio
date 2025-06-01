@@ -22,7 +22,7 @@ export default function Projects() {
 
       <div className="flex flex-wrap my-20 gap-16">
         {projects.map((project) => (
-          <div className="lg:w-[400px] w-full" key={project.name}>
+          <div className="lg:w-[400px] w-full relative" key={project.name}>
             <div className="block-container w-12 h-12">
               <div className={`btn-back rounded-xl ${project.theme}`} />
               <div className="btn-front rounded-xl flex justify-center items-center">
@@ -33,7 +33,9 @@ export default function Projects() {
                 />
               </div>
             </div>
-
+            <p className="p-1 absolute right-[10px] top-0 border rounded-lg blue-gradient_text font-semibold">
+              {project.projectType}
+            </p>
             <div className="mt-5 flex flex-col">
               <h4 className="text-2xl font-poppins font-semibold">
                 {project.name}

@@ -180,6 +180,7 @@ export const projects = [
   {
     iconUrl: zomato,
     theme: "btn-back-red",
+    projectType: "Personal",
     name: "Zomato Landing Page",
     description:
       "A replica of the Zomato landing page, showcasing various restaurants and food options. This project focuses on the frontend implementation using HTML and CSS.",
