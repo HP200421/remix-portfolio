@@ -1,4 +1,5 @@
 import { Form } from "@remix-run/react";
+import emailjs from "@emailjs/browser";
 import { ActionFunctionArgs } from "@remix-run/node";
 import { useForm } from "react-hook-form";
 import useAlert from "~/hooks/useAlert";
@@ -9,6 +10,7 @@ export const action = async ({ request }: ActionFunctionArgs) => {
   const name = formData.get("name");
   const email = formData.get("email");
   const message = formData.get("message");
+
   return null;
 };
 
