@@ -33,7 +33,7 @@ export default function Projects() {
                 />
               </div>
             </div>
-            <p className="p-1 absolute right-[10px] top-0 border rounded-lg blue-gradient_text font-semibold">
+            <p className="px-3 py-1 absolute right-[10px] top-2 rounded-full bg-gradient-to-r from-[#00c6ff] to-[#0072ff] text-white font-semibold text-sm shadow-md">
               {project.projectType}
             </p>
             <div className="mt-5 flex flex-col">

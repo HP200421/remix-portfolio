@@ -186,4 +186,13 @@ export const projects = [
       "A replica of the Zomato landing page, showcasing various restaurants and food options. This project focuses on the frontend implementation using HTML and CSS.",
     link: "https://hp200421.github.io/Zomato_Landing_Page/",
   },
+  {
+    iconUrl: assistant,
+    theme: "btn-back-yellow",
+    projectType: "Personal",
+    name: "Desktop Assistant",
+    description:
+      "Desktop Assistant is a voice-controlled AI assistant that performs various tasks based on user voice commands. The OpenAI GPT-3.5 API for natural language understanding and generation.",
+    link: "https://github.com/HP200421/Desktop-Assistant",
+  },
 ];

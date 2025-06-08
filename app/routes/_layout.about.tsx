@@ -7,22 +7,7 @@ import Resume from "~/components/cta";
 export default function About() {
   return (
     <section className="max-container">
-      <h1 className="head-text">
-        Hello, I'm{" "}
-        <span className="blue-gradient_text font-semibold drop-shadow">
-          Haridas Pawar
-        </span>
-      </h1>
-
-      <div className="mt-5 flex flex-col gap-3 text-slate-600">
-        <p>
-          A Software Engineer passionate about writing code, designing, and
-          developing applications. I build things that matter. <br />
-          Always learning, always growing
-        </p>
-      </div>
-
-      <div className="py-10 flex flex-col">
+      <div className="flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
 
         <div className="mt-16 flex flex-wrap gap-12">
