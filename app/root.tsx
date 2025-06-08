@@ -7,14 +7,10 @@ import {
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
 
-import rootStyle from "./styles/tailwind.css";
+import "./styles/tailwind.css";
 
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
-  {
-    rel: "stylesheet",
-    href: rootStyle,
-  },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
