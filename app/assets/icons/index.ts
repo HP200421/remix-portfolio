@@ -28,6 +28,8 @@ import express from "./express.svg";
 import todo from "./todo.svg";
 import remix from "./remix.svg";
 import docker from "./docker.webp";
+import bids from "./bids.svg";
+import building from "./building.svg";
 
 export {
   css,
@@ -60,4 +62,6 @@ export {
   todo,
   remix,
   docker,
+  bids,
+  building,
 };

@@ -1,4 +1,4 @@
-import { salesforce, bolt, touchmedia, metron } from "../assets/images";
+import { bolt, touchmedia, metron } from "../assets/images";
 import {
   contact,
   css,
@@ -25,6 +25,8 @@ import {
   todo,
   remix,
   docker,
+  bids,
+  building,
 } from "../assets/icons";
 
 export interface skillsList {
@@ -194,5 +196,31 @@ export const projects = [
     description:
       "Desktop Assistant is a voice-controlled AI assistant that performs various tasks based on user voice commands. The OpenAI GPT-3.5 API for natural language understanding and generation.",
     link: "https://github.com/HP200421/Desktop-Assistant",
+  },
+  {
+    iconUrl: todo,
+    theme: "btn-back-blue",
+    projectType: "Professional",
+    name: "Doctor Appointment",
+    description:
+      "Developed a website for booking doctor appointments and Implemented features for OTP via WhatsApp, mobile number, and email confirmation to enhance user experience.",
+    link: "https://appointment.touchmediaads.com/drshibli",
+  },
+  {
+    iconUrl: bids,
+    theme: "btn-back-orange",
+    projectType: "Professional",
+    name: "Bids On Motor Admin Panel",
+    description:
+      "Developed an interactive website and user-friendly admin panel, leveraging ReactJS for dynamic and reusable UI component. Integrated Firebase push notifications for Admin Panel.",
+  },
+  {
+    iconUrl: building,
+    theme: "btn-back-yellow",
+    projectType: "Professional",
+    name: "Archtype",
+    description:
+      "Built an architecture portfolio website with a custom admin panel for content management, enabling seamless updates for projects, blogs, and media.",
+    link: "https://www.archtype.in/",
   },
 ];

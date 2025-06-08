@@ -42,19 +42,23 @@ export default function Projects() {
               </h4>
               <p className="mt-2 text-slate-600">{project.description}</p>
               <div className="mt-5 flex items-center gap-2 font-poppins">
-                <Link
-                  to={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue-600"
-                >
-                  Live Demo
-                </Link>
-                <img
-                  src={arrow}
-                  alt="arrow"
-                  className="w-4 h-4 object-contain"
-                />
+                {project.link && (
+                  <>
+                    <Link
+                      to={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold text-blue-600"
+                    >
+                      Live Demo
+                    </Link>
+                    <img
+                      src={arrow}
+                      alt="arrow"
+                      className="w-4 h-4 object-contain"
+                    />
+                  </>
+                )}
               </div>
             </div>
           </div>
