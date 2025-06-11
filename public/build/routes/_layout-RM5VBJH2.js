@@ -1,0 +1,1 @@
+import{a as m,b as e}from"/build/_shared/chunk-RR6PNJV5.js";import"/build/_shared/chunk-BRBRVWTL.js";import{b as r}from"/build/_shared/chunk-JPC33ENL.js";import{d as t,g as a}from"/build/_shared/chunk-DLUJ32DX.js";var o=t(a(),1);function f(){return(0,o.jsxs)("main",{className:"bg-slate-300/20",children:[(0,o.jsx)(m,{}),(0,o.jsx)(r,{}),(0,o.jsx)(e,{})]})}export{f as default};
