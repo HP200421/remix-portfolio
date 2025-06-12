@@ -1,0 +1,1 @@
+import{j as s}from"./index-TQU6T2k2.js";import{L as t}from"./components-CI-2gW7y.js";function c(){return s.jsxs("section",{className:"cta",children:[s.jsxs("p",{className:"cta-text",children:["Have a project in mind?",s.jsx("br",{className:"sm:block hidden"}),"Let's build something together!"]}),s.jsx(t,{to:"/contact",className:"btn",children:"Contact"})]})}export{c as C};

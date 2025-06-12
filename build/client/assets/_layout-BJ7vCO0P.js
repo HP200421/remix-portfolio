@@ -1,0 +1,1 @@
+import{j as s}from"./index-TQU6T2k2.js";import{N as t,F as r}from"./footer-BaZYaEhU.js";import{O as a}from"./components-CI-2gW7y.js";import"./index-Cp5Ea59G.js";function x(){return s.jsxs("main",{className:"bg-slate-300/20",children:[s.jsx(t,{}),s.jsx(a,{}),s.jsx(r,{})]})}export{x as default};
